@@ -41,6 +41,7 @@ on:
     # time after `earliest REPORT_HOUR - 1` if today's report is still
     # absent from gh-pages.
     - cron: '7 * * * *'
+     
     - cron: '37 * * * *'
   workflow_dispatch:
 
